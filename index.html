@@ -1,184 +1,200 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>여행사 클론코딩</title>
     <link rel="stylesheet" type="text/css" href="./css/reset.css" />
     <link rel="stylesheet" type="text/css" href="./css/main.css" />
-    <link rel="stylesheet" type="text/css" media=" screen and (max-width:1200px)" href="./css/main_1200.css" />
-    <link rel="stylesheet" type="text/css" media=" screen and (max-width:1000px)" href="./css/main_1000.css" />
-    <link rel="stylesheet" type="text/css" media=" screen and (max-width:480px)" href="./css/main_480.css" />
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media=" screen and (max-width:1200px)"
+      href="./css/main_1200.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media=" screen and (max-width:1000px)"
+      href="./css/main_1000.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media=" screen and (max-width:480px)"
+      href="./css/main_480.css" />
+  </head>
+  <body>
     <div id="wrap">
-        <header id="header">
-            <div class="group">
-              <ul class="infomn">
-                <li><a href="#">로그인</a></li>
-                <li><a href="#">회원가입</a></li>
-                <li><a href="#">예약확인/안내</a></li>
-                <li><a href="#">관심상품</a></li>
-                <li><a href="#">고객센터</a></li>
-              </ul>
-            </div>
-            <nav class="nav">
-                <ul>
-                    <li><a href="#">일본</a></li>
-                    <li><a href="#">동남아</a></li>
-                    <li><a href="#">제주도/을룽도</a></li>
-                    <li><a href="#">패키지여행</a></li>
-                    <li><a href="#">단체버스</a></li>
-                    <li><a href="#">숙소예약</a></li>
-                </ul>
-            </nav>
-            <nav class="nav_m">
-                <a href="#">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </a>
-            </nav>
-        </header>
-        <section id="main_img"></section>
-        <section id="contents">
-            <article class="best">
-                <header class="best_h">
-                    <h1>2024 내 입맛대로 여행일지</h1>
-                </header>
-                <section class="best_b">
-                    <figure class="l_img">
-                        <img src="./images/img1-jeju" alt="">
-                        <figcaption>
-                            <h4>BEST</h4>
-                            <div class="group">
-                                <h5>제주도 단체여행 견적</h5>
-                                <p>제주 캠퍼트리 호텔&리조트</p>
-                            </div>
-                            <a href="#">더보기</a>
-                        </figcaption>
-                    </figure>
-                    <ul class="list">
-                        <li>
-                            <h4>02</h4>
-                            <img src="./images/img-경남테마관광.jpg" alt="img-경남테마관광.jpg" style="width: 37%;"/>
-                            <div class="group">
-                                <h5>여름에 떠나는 경남</h5>
-                                <p>취향따라 #테마관광</p>
-                            </div>
-                            <a href="#">더보기</a>
-                        </li>
-                        <li>
-                            <h4>03</h4>
-                            <img src="./images/img-지리산계곡.jpg" alt="img-지리산계곡.jpg" style="width: 30%;" />
-                            <div class="group">
-                                <h5>지리산 투어 시리즈</h5>
-                                <p>단체버스 #여름계곡</p>
-                            </div>
-                            <a href="#">더보기</a>
-                        </li>
-                        <li>
-                            <h4>04</h4>
-                            <img src="./images/img-을룽도.jpg" alt="img-을룽도.jpg" style="width: 35%;" />
-                            <div class="group">
-                                <h5>을룽도 전노선 출항</h5>
-                                <p>#쾌속선 2박3일</p>
-                            </div>
-                            <a href="#">더보기</a>
-                        </li>
-                        <li>
-                            <h4>05</h4>
-                            <img src="./images/img-그레이스정원.jpg" alt="img-그레이스정원.jpg" style="width: 30%;" />
-                            <div class="group">
-                                <h5>고성 고분군 그레이스 정원</h5>
-                                <p>당일치기 #인생샷</p>
-                            </div>                            
-                        </li>
-                    </ul>
-                </section>
-                <footer class="best_footer"></footer>
-            </article>
-            <article class="event">
-                <header class="event_h">
-                    <h2>올여름 한정판 신규상품!!</h2>
-                </header>
-                <section class="event_b">
-                    <figure class="item">
-                        <img src="./images/img2-몰디브.jpg" alt="" />
-                        <figcaption>
-                            <h4>몰디브 1주일</h4>
-                            <p>#휴양의정석 #몰디브 #에메랄드바다 #인생샷</p>
-                            <span>2,000,000원</span>
-                            <a href="">BEST 여름 이벤트!</a>
-                        </figcaption>
-                    </figure>
-                    <figure class="item">
-                        <img src="./images/img2-미야코지마4" alt="" />
-                        <figcaption>
-                            <h4>미야코지마 1주일</h4>
-                            <p>#NEW #일본몰디브 #왕복할인</p>
-                            <span>800,000원</span>
-                            <a href="">HOT 인기급부상</a>
-                        </figcaption>
-                    </figure>
-                    <figure class="item">
-                        <img src="./images/img2-푸꾸옥5.jpg" alt="" />
-                        <figcaption>
-                            <h4>베트남 푸꾸옥 1주일</h4>
-                            <p>
-                              #베트남몰디브 #얼리버드 #레이트체크아웃
-                            </p>
-                            <span>600,000원</span>
-                            <a href="">새로운 여름 트랜드</a>
-                        </figcaption>
-                    </figure>
-                </section>
-                <!-- footer -->
-                <footer class="event_f">
-                    <a href="#">더보기</a>
-                </footer>
-            </article>
-            <!-- 회사정보 -->
-            <article class="info">
-                <ul>
-                    <li>
-                        <h4 class="ttl">나만의 맞춤여행 고객센터</h4>
-                        <h5 class="sub_ttl1">051-1234-5678</h5>
-                        <p class="txt">
-                            평일9 am ~ 18 pm &nbsp; 
-                            (토요일 및 공휴일 휴무)<br />
-                            우리은행 1234-567-123456 (주)나의여행
-                        </p>
-                    </li>
-                    <li>
-                        <h4 class="ttl">맞춤/단체문의</h4>
-                        <h5 class="sub_ttl2">
-                            기업연수, 동호회 등 단체 여행 상담
-                        </h5>
-                    </li>
-                    <li>
-                        <h4 class="ttl">고객센터</h4>
-                        <img src="./images/kakaotalk.png" alt="">
-                    </li>
-                </ul>
-            </article>
-        </section>
-        <footer id="footer">
-            <ul class="info_mn">
-                <li><a href="">공지사항</a></li>
-                <li><a href="">개인정보방침</a></li>
-                <li><a href="">이용약관</a></li>
-                <li><a href="">여행약관</a></li>
-                <li><a href="">여행자 보험</a></li>
-                <li><a href="">오시는길</a></li>
-                <li><a href="">마케팅제휴</a></li>
+      <header id="header">
+        <div class="group">
+          <ul class="infomn">
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">회원가입</a></li>
+            <li><a href="#">예약확인/안내</a></li>
+            <li><a href="#">관심상품</a></li>
+            <li><a href="#">고객센터</a></li>
+          </ul>
+        </div>
+        <nav class="nav">
+          <ul>
+            <li><a href="#">일본</a></li>
+            <li><a href="#">동남아</a></li>
+            <li><a href="#">제주도/을룽도</a></li>
+            <li><a href="#">패키지여행</a></li>
+            <li><a href="#">단체버스</a></li>
+            <li><a href="#">숙소예약</a></li>
+          </ul>
+        </nav>
+        <nav class="nav_m">
+          <a href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+        </nav>
+      </header>
+      <section id="main_img"></section>
+      <section id="contents">
+        <article class="best">
+          <header class="best_h">
+            <h1>2024 내 입맛대로 여행일지</h1>
+          </header>
+          <section class="best_b">
+            <figure class="l_img">
+              <img src="./images/img1-jeju" alt="" />
+              <figcaption>
+                <h4>BEST</h4>
+                <div class="group">
+                  <h5>제주도 단체여행 견적</h5>
+                  <p>제주 캠퍼트리 호텔&리조트</p>
+                </div>
+                <a href="#">더보기</a>
+              </figcaption>
+            </figure>
+            <ul class="list">
+              <li>
+                <h4>02</h4>
+                <img
+                  src="./images/img-경남테마관광.jpg"
+                  alt="img-경남테마관광.jpg"
+                  style="width: 37%" />
+                <div class="group">
+                  <h5>여름에 떠나는 경남</h5>
+                  <p>취향따라 #테마관광</p>
+                </div>
+                <a href="#">더보기</a>
+              </li>
+              <li>
+                <h4>03</h4>
+                <img
+                  src="./images/img-지리산계곡.jpg"
+                  alt="img-지리산계곡.jpg"
+                  style="width: 30%" />
+                <div class="group">
+                  <h5>지리산 투어 시리즈</h5>
+                  <p>단체버스 #여름계곡</p>
+                </div>
+                <a href="#">더보기</a>
+              </li>
+              <li>
+                <h4>04</h4>
+                <img
+                  src="./images/img-을룽도.jpg"
+                  alt="img-을룽도.jpg"
+                  style="width: 35%" />
+                <div class="group">
+                  <h5>을룽도 전노선 출항</h5>
+                  <p>#쾌속선 2박3일</p>
+                </div>
+                <a href="#">더보기</a>
+              </li>
+              <li>
+                <h4>05</h4>
+                <img
+                  src="./images/img-그레이스정원.jpg"
+                  alt="img-그레이스정원.jpg"
+                  style="width: 30%" />
+                <div class="group">
+                  <h5>고성 고분군 그레이스 정원</h5>
+                  <p>당일치기 #인생샷</p>
+                </div>
+              </li>
             </ul>
-            <address class="address01">
-                [항공권소식] [6월연휴] 공지안내
-            </address>
-        </footer>
+          </section>
+          <footer class="best_footer"></footer>
+        </article>
+        <article class="event">
+          <header class="event_h">
+            <h2>올여름 한정판 신규상품!!</h2>
+          </header>
+          <section class="event_b">
+            <figure class="item">
+              <img src="./images/img2-몰디브.jpg" alt="" />
+              <figcaption>
+                <h4>몰디브 1주일</h4>
+                <p>#휴양의정석 #몰디브 #에메랄드바다 #인생샷</p>
+                <span>2,000,000원</span>
+                <a href="">BEST 여름 이벤트!</a>
+              </figcaption>
+            </figure>
+            <figure class="item">
+              <img src="./images/img2-미야코지마4" alt="" />
+              <figcaption>
+                <h4>미야코지마 1주일</h4>
+                <p>#NEW #일본몰디브 #왕복할인</p>
+                <span>800,000원</span>
+                <a href="">HOT 인기급부상</a>
+              </figcaption>
+            </figure>
+            <figure class="item">
+              <img src="./images/img2-푸꾸옥5.jpg" alt="" />
+              <figcaption>
+                <h4>베트남 푸꾸옥 1주일</h4>
+                <p>#베트남몰디브 #얼리버드 #레이트체크아웃</p>
+                <span>600,000원</span>
+                <a href="">새로운 여름 트랜드</a>
+              </figcaption>
+            </figure>
+          </section>
+          <!-- footer -->
+          <footer class="event_f">
+            <a href="#">더보기</a>
+          </footer>
+        </article>
+        <!-- 회사정보 -->
+        <article class="info">
+          <ul>
+            <li>
+              <h4 class="ttl">나만의 맞춤여행 고객센터</h4>
+              <h5 class="sub_ttl1">051-1234-5678</h5>
+              <p class="txt">
+                평일9 am ~ 18 pm &nbsp; (토요일 및 공휴일 휴무)<br />
+                우리은행 1234-567-123456 (주)나의여행
+              </p>
+            </li>
+            <li>
+              <h4 class="ttl">맞춤/단체문의</h4>
+              <h5 class="sub_ttl2">기업연수, 동호회 등 단체 여행 상담</h5>
+            </li>
+            <li>
+              <h4 class="ttl">고객센터</h4>
+              <img src="./images/kakaotalk.png" alt="" />
+            </li>
+          </ul>
+        </article>
+      </section>
+      <footer id="footer">
+        <ul class="info_mn">
+          <li><a href="">공지사항</a></li>
+          <li><a href="">개인정보방침</a></li>
+          <li><a href="">이용약관</a></li>
+          <li><a href="">여행약관</a></li>
+          <li><a href="">여행자 보험</a></li>
+          <li><a href="">오시는길</a></li>
+          <li><a href="">마케팅제휴</a></li>
+        </ul>
+        <address class="address01">[항공권소식] [6월연휴] 공지안내</address>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
