@@ -8,6 +8,7 @@
 
 #wrap {
     width: 100%;
+    background-color: #f2f2f2;
 }
 
 #header {
@@ -102,6 +103,8 @@
     max-width: 100%;    
 }
 
+/* CONTENTS */
+
 #contents {
     width: 100%;
     background-color: #f2f2f2;
@@ -116,12 +119,13 @@
 #contents .best_h {
     width: 100%;
     height: 75px;
+    margin-top: 30px;
 }
 
 #contents .best_h h1 {
     font-size: 30px;
     color: #222;
-    line-height: 70px;
+    line-height: 65px;
 }
 
 #contents .best_b {
@@ -198,6 +202,7 @@
 }
 
 #contents .best_b .list h4 {
+    height: 108px;
     float: left;
     padding: 0 20px;
     line-height: 108px;
@@ -207,6 +212,8 @@
 #contents .best_b .list img {
     float: left;
     margin-right: 20px;
+    width: 100%;
+    height: 105px;
 }
 
 #contents .best_b .list .group {
@@ -221,7 +228,7 @@
 
 #contents .best_b .list h5:hover {
     cursor: pointer;
-    color: red;
+    color: rgba(129, 119, 119, 0.3);
 }
 
 #contents .best_b .list p {
@@ -236,14 +243,13 @@
 
 #contents .best_b .list a:hover {
     cursor: pointer;
-    color: red;
     font-weight: 900;
 }
 
 #contents .best_footer {
     width: 100%;
-    height: 160px;
-    background: url(../images/banner180807.gif)no-repeat 0 10px;
+    height: 140px;    
+    background: url(../images/banner180807.gif) no-repeat 0 10px;
 }
 
 #contents .event {
@@ -255,11 +261,15 @@
 #contents .event_h {
     width: 100%;
     height: 60px;
+    /* ! */
+    margin-bottom: 10px;
 }
 
 #contents .event_h h2 {
-    font-size: 22px;
+    font-size: 24px;
     line-height: 60px;
+    margin-top: 20px;
+    color: #363636;
 }
 
 #contents .event_b {
@@ -391,6 +401,7 @@
     cursor: pointer;
 }
 
+/* FOOTER */
 #footer {
     width: 100%;
     height: 170px;
